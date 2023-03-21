@@ -10,6 +10,9 @@ const FlightNumber: React.FC<FlightNumberProps> = ({
   flightNumber,
   status,
 }) => {
+
+  console.log(styles);
+
   return (
     <div
       className={`${styles.flightNumber} bg-${status}`}

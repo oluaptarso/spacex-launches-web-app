@@ -48,3 +48,13 @@ docker run -p 3000:3000 spacex-launches-webapp
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Storybook
+To open Storybook, run:
+```bash
+npm run storybook
+# or
+yarn storybook
+```
+
+Open [http://localhost:6006](http://localhost:6006) with your browser to see the application Storybook.
