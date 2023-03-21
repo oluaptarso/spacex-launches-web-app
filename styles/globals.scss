@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-sm text-slate-400 sm:text-base;
+  @apply bg-slate-800;
+
+  .error {
+    @apply p-8 font-bold text-pink-500;
+  }
+
+  .bg-Success {
+    @apply bg-teal-500;
+  }
+
+  .bg-Fail {
+    @apply bg-pink-500;
+  }
+
+  .bg-Upcoming {
+    @apply bg-cyan-500;
+  }
+
+  .text-Success {
+    @apply text-teal-500;
+  }
+
+  .text-Fail {
+    @apply text-pink-500;
+  }
+
+  .text-Upcoming {
+    @apply text-cyan-500;
+  }
+}

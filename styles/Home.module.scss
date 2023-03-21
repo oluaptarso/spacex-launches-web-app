@@ -1,0 +1,20 @@
+.homeContainer {
+  @apply w-full p-6;
+  overflow-y: auto;
+  height: 100vh;
+
+  .cardsContainer, .listsContainer {
+    @apply container mx-auto;
+    @apply flex flex-col md:flex-row gap-4 p-0;
+  
+    .list {
+      @apply basis-1/2;
+    }
+  }
+
+  .cardsContainer {
+    @apply justify-center;
+  }
+}
+
+
