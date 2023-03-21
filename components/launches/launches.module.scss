@@ -1,0 +1,11 @@
+.launches {
+  @apply mt-4;
+
+  .title {
+    @apply font-bold text-xl mb-4;
+  }
+
+  .launchItem{
+    @apply last-of-type:mb-0 mb-4;
+  }
+}
