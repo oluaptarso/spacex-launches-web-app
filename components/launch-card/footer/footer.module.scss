@@ -1,0 +1,7 @@
+.footer {
+  @apply flex items-center justify-between pt-4;
+
+  .date {
+    @apply text-sm;
+  }
+}

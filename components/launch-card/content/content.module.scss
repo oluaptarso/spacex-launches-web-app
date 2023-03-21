@@ -1,0 +1,23 @@
+.content {
+  @apply text-center;
+
+  .name {
+    @apply py-2 text-2xl font-bold;
+  }
+  
+  .warning {
+    @apply font-bold text-yellow-500;
+  }
+
+  .status {
+    @apply font-bold;
+
+    &.success {
+      @apply text-teal-500;
+    }
+
+    &.fail {
+      @apply text-pink-500;
+    }
+  }
+}
