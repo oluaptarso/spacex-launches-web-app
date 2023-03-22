@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: 'standalone'
+  output: "standalone",
+  webpack5: true,
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;
