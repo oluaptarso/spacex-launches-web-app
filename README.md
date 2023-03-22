@@ -58,3 +58,26 @@ yarn storybook
 ```
 
 Open [http://localhost:6006](http://localhost:6006) with your browser to see the application Storybook.
+
+## Cypress
+
+To open Cypress, run:
+```bash
+npm run cypress
+# or
+yarn cypress
+```
+
+To run component test:
+```bash
+npm run component
+# or
+yarn component
+```
+
+To run headless component test:
+```bash
+npm run component:headless
+# or
+yarn component:headless
+```
